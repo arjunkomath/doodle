@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.doodle {
+    font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    font-family: 'Patua One', cursive;
+}
+
+.paper {
+    position: relative;
+    background: #fff;
+    box-shadow: /* The top layer shadow */
+    0 1px 1px rgba(0, 0, 0, 0.15), /* The second layer */
+    0 10px 0 -5px #eee, /* The second layer shadow */
+    0 10px 1px -4px rgba(0, 0, 0, 0.15), /* The third layer */
+    0 20px 0 -10px #eee, /* The third layer shadow */
+    0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    /* Padding for demo purposes */
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.preview-box {
+    position: fixed;
+    border: 1px dashed red;
+}

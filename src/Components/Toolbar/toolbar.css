@@ -1,0 +1,17 @@
+.toolbar {
+    position: fixed;
+    width: 20px;
+    padding: 0 25px;
+    height: 600px;
+    /* border: 1px solid #3e3e3e; */
+    top: 15%;
+    left: 0;
+}
+
+.tool {
+    margin: 20px 0;
+}
+
+.selected {
+    color: blue;
+}
